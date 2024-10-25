@@ -1,0 +1,33 @@
+#srcoll {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #srcoll .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #srcoll .pagination-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #srcoll .pagination-custom .page-item {
+    margin: 0 5px;
+  }
+  
+  #srcoll .page-input {
+    display: none;
+    position: absolute;
+    top: -40px;
+    background: white;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

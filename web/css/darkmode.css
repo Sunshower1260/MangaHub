@@ -1,0 +1,75 @@
+body.dark-mode {
+    background-color: #18191A; /* Thay đổi màu nền  */
+    color: #E0E0E0;
+}
+
+/* Đổi màu navbar */
+body.dark-mode .navbar,
+body.dark-mode .navbar-light {
+    background-color: #24272A !important;
+    color: #E0E0E0;
+}
+/* tạo bóng navbar */
+body.dark-mode .navbar {
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.103), 0 1px 2px rgba(255, 255, 255, 0.114) !important;
+}
+
+body.dark-mode .navbar-nav .nav-link {
+    color: #E0E0E0 !important;
+} 
+
+/* Đổi màu dropdown-menu */
+body.dark-mode .dropdown-menu {
+    background-color: #2D2F33 !important;
+    color: #E0E0E0;
+}
+
+/* Tạo khung trending */
+body.dark-mode #trending .slider-item {
+    border: 1px solid #E0E0E0;
+}
+
+
+/* Đổi màu thẻ truyện */
+body.dark-mode .story-card {
+    background-color: #202124;
+    color: #E0E0E0;
+}
+
+/* Đổi màu nút */
+body.dark-mode .btn-primary {
+    background-color: #0077B6;
+    border-color: #0077B6;
+}
+
+/* Tạo viền nút */
+body.dark-mode .btn-outline-success {
+    border-color: #0077B6;
+    color: #0077B6;
+}
+
+/* Đổi màu liên kết và chữ thẻ truyện */
+body.dark-mode .story-card .story-description li a {
+    background-color: #1F2022;
+    color: #E0E0E0;
+}
+/* đổi màu chữ khi di chuột vào */
+body.dark-mode .story-description a:hover {
+    color: #007bff !important;
+  }
+/* bo góc */
+body.dark-mode .story-overlay {
+   
+    border-radius: 0 0 5px 5px !important;
+   
+  }
+/* đổ bóng */
+  body.dark-mode .story-card {
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1), 0 1px 3px rgba(255, 255, 255, 0.08) !important;
+}
+
+body.dark-mode .me-10{
+    background-color: #202124;
+    
+}
+  

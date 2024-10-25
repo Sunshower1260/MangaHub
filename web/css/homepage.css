@@ -1,0 +1,209 @@
+/* Slider Styles */
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px; /* Đặt giới hạn chiều rộng tối đa */
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: calc(100% + 20px); /* Đảm bảo đủ rộng để chứa tất cả các item */
+}
+
+.slider {
+    display: flex;
+    width: 100%; /* Chỉnh kích thước cho phù hợp với container */
+    padding: 0 10px; /* Thêm padding để có khoảng cách giữa các items */
+}
+
+.slider-item {
+    flex: 1 0 20%; /* Hiển thị 5 truyện */
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 5px; /* Khoảng cách giữa các mục */
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-item img {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+.story-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+}
+
+.story-info h3 {
+    font-size: 1em;
+    margin: 0;
+    text-align: left;
+}
+
+.story-info p {
+    font-size: 0.9em;
+    margin: 0;
+    text-align: left;
+}
+
+/* Arrow Styles */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+    .slider-item {
+        flex: 1 0 24%;
+    }
+}
+
+@media (max-width: 992px) {
+    .slider-item {
+        flex: 1 0 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-item {
+        flex: 1 0 48%;
+    }
+}
+
+@media (max-width: 576px) {
+    .slider-item {
+        flex: 1 0 100%;
+    }
+}
+/* Slider Styles */
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px; /* Đặt giới hạn chiều rộng tối đa */
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: calc(100% + 20px); /* Đảm bảo đủ rộng để chứa tất cả các item */
+}
+
+.slider {
+    display: flex;
+    width: 100%; /* Chỉnh kích thước cho phù hợp với container */
+    padding: 0 10px; /* Thêm padding để có khoảng cách giữa các items */
+}
+
+.slider-item {
+    flex: 1 0 20%; /* Hiển thị 5 truyện */
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 5px; /* Khoảng cách giữa các mục */
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-item img {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+.story-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+    white-space: nowrap; /* Không cho phép xuống dòng */
+    overflow: hidden; /* Ẩn phần nội dung tràn ra */
+    text-overflow: ellipsis; /* Hiển thị dấu ... khi nội dung quá dài */
+}
+
+.story-info h3,
+.story-info p {
+    margin: 0;
+    text-align: left;
+    white-space: nowrap; /* Không cho phép xuống dòng */
+    overflow: hidden; /* Ẩn phần nội dung tràn ra */
+    text-overflow: ellipsis; /* Hiển thị dấu ... khi nội dung quá dài */
+    font-size: 0.9em; /* Kích thước font */
+}
+
+/* Arrow Styles */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+    .slider-item {
+        flex: 1 0 24%;
+    }
+}
+
+@media (max-width: 992px) {
+    .slider-item {
+        flex: 1 0 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-item {
+        flex: 1 0 48%;
+    }
+}
+
+@media (max-width: 576px) {
+    .slider-item {
+        flex: 1 0 100%;
+    }
+}
